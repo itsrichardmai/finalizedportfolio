@@ -46,7 +46,7 @@ const About = () => {
               My approach streamlines workflows and enhances user experiences.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              I studied MIT at Temple University and Web Development at University of Pennsylvannia. believe in writing clean, maintainable code and staying current with emerging
+              I studied MIS at Temple University and Web Development at University of Pennsylvannia. believe in writing clean, maintainable code and staying current with emerging
               technologies. From building custom bots to crafting responsive web applications,
               I deliver solutions tailored to your specific needs.
             </p>

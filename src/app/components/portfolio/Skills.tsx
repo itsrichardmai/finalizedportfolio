@@ -65,16 +65,6 @@ const Skills = () => {
                   </div>
                 </div>
 
-                {/* Progress Bar */}
-                <div className="relative h-2 bg-gray-200 dark:bg-gray-800 rounded-full overflow-hidden">
-                  <motion.div
-                    initial={{ width: 0 }}
-                    animate={isInView ? { width: `${skill.level}%` } : {}}
-                    transition={{ duration: 1, delay: index * 0.05 + 0.3, ease: 'easeOut' }}
-                    className="absolute h-full bg-black dark:bg-white rounded-full"
-                  />
-                </div>
-
                 {/* Hover Effect */}
                 <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-transparent dark:from-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg pointer-events-none" />
               </div>
